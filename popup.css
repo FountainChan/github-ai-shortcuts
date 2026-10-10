@@ -1,0 +1,12 @@
+:root { color-scheme: light dark; font-family: system-ui, "Microsoft YaHei", sans-serif; }
+body { width: 310px; margin: 0; padding: 20px; background: light-dark(#f6f8fa, #0d1117); color: light-dark(#1f2328, #e6edf3); }
+h1 { font-size: 18px; margin: 0 0 10px; }
+#repo { font-size: 13px; overflow-wrap: anywhere; color: light-dark(#59636e, #9198a1); }
+.tools { display: grid; gap: 8px; margin: 18px 0 12px; }
+button { border: 1px solid light-dark(#d1d9e0, #3d444d); border-radius: 8px; padding: 12px; color: inherit; background: light-dark(#fff, #161b22); font: inherit; text-align: left; cursor: pointer; }
+button span { display: block; margin-top: 4px; font-size: 12px; opacity: .7; }
+button:hover:not(:disabled) { border-color: #4493f8; }
+button:focus-visible { outline: 2px solid #4493f8; outline-offset: 2px; }
+button:disabled { opacity: .5; cursor: default; }
+#all { width: 100%; color: white; background: #238636; border-color: #238636; text-align: center; font-size: 13px; }
+#status { margin-bottom: 0; font-size: 12px; line-height: 1.6; opacity: .75; }

@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub AI Shortcuts",
+  "version": "1.0.0",
+  "description": "从当前 GitHub 仓库打开 Gitingest、GitDiagram 和 DeepWiki。",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_title": "GitHub AI Shortcuts",
+    "default_popup": "popup.html"
+  }
+}

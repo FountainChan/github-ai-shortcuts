@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GitHub AI Shortcuts</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>GitHub AI Shortcuts</h1>
+  <p id="repo">读取当前仓库…</p>
+  <div class="tools">
+    <button data-service="0" disabled>Gitingest <span>提取代码文本 ↗</span></button>
+    <button data-service="1" disabled>GitDiagram <span>查看架构图 ↗</span></button>
+    <button data-service="2" disabled>DeepWiki <span>阅读文档与提问 ↗</span></button>
+  </div>
+  <button id="all" disabled>全部打开 · 3 个新标签页</button>
+  <p id="status" role="status" aria-live="polite">保留当前 GitHub 页面，在后台新开标签页。</p>
+  <script src="repo.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
